@@ -12,7 +12,11 @@ import { getPollinationsText } from "./utils/downimage.js";
 // Initialize Express app
 function main() {
   const app = express();
-  app.use(cors({ origin: "*" }));
+  app.use(cors({
+    origin: 'https://ai-agent-1-j016.onrender.com', // Replace with your frontend domain
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true
+}));
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
