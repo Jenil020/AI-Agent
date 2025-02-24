@@ -1,0 +1,38 @@
+{
+  "name": "ai-agency-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@galacean/engine": "^1.2.0-beta.1",
+    "@inworld/web-core": "^2.4.1",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@qdrant/js-client-rest": "^1.10.0",
+    "@rangermauve/fetch-event-source": "^1.0.3",
+    "axios": "^1.6.8",
+    "eventsource-extra": "^1.0.0",
+    "fetch-event-stream": "^0.1.5",
+    "fetch-sse": "^1.0.23",
+    "js-audio-recorder": "^1.0.7",
+    "marked": "^14.1.2",
+    "mitt": "^3.0.1",
+    "react": "^18.3.1",
+    "react-avatar": "^5.0.3",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-static-copy": "^1.0.1",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.14"
+  }
+}

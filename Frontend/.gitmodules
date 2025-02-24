@@ -1,0 +1,3 @@
+[submodule "AI-Agent-Backend-Service"]
+	path = AI-Agent-Backend-Service
+	url = https://github.com/muadao/AI-Agent-Backend-Service.git
