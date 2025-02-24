@@ -9,7 +9,7 @@ import { BsFillMicFill, BsFillMicMuteFill } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
 import './App.css';
 
-const apiUrl = "http://localhost:4242";
+const apiUrl = "https://backend-service-1-hmf5.onrender.com" ;
 
 const App = () => {
   const [history, setHistory] = useState<any[]>([]);
