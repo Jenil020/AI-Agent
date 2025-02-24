@@ -39,6 +39,11 @@ export default defineConfig({
         },
         extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
+    preview: {
+        host: '0.0.0.0',
+        port: 3000,
+        allowedHosts: ['ai-agent-1-j016.onrender.com'] // <-- Add your Render domain here
+      },
     server: {
         port: 3000,
         open: true,
